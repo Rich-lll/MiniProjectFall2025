@@ -1,6 +1,68 @@
-body {
-    background-color: navajowhite;
+#Gamingroom {
+    transform: skew(5deg, 5deg) translate(500px, -55px) rotateZ(-5deg)
 }
+
+
+body {
+    background: linear-gradient(blue, red);
+}
+
+#BrawlBody {
+    background: linear-gradient(cadetblue, midnightblue);
+}
+
+#BrawlLinks {
+    background: linear-gradient(lightseagreen, dodgerblue);
+}
+
+#SF6Body {
+    background: linear-gradient(lightgrey, darkslategrey);
+}
+
+#SF6Links {
+    background: linear-gradient(dimgrey, white);
+}
+
+#MK1Body {
+    background: linear-gradient(floralwhite, orangered);
+}
+
+#MK1Links {
+    background: linear-gradient(peachpuff, firebrick);
+}
+
+#MINTERBody {
+    background: linear-gradient(darkgreen, royalblue);
+}
+
+#MINTERLinks {
+    background: linear-gradient(cyan, green);
+}
+
+#SSBUBody {
+    background: linear-gradient(red, yellow);
+}
+
+#SSBULinks {
+    background: linear-gradient(darkorange, greenyellow);
+}
+
+#MK8Body {
+    background: linear-gradient(midnightblue, mediumvioletred);
+}
+
+#MK8Links {
+    background: linear-gradient(deeppink, mediumpurple);
+}
+
+#MRBody {
+    background: linear-gradient(dimgrey, yellow);
+}
+
+#MRLinks {
+    background: linear-gradient(whitesmoke, black);
+}
+
 .Beginning {
     font-size: large;
     margin: 30px;
@@ -11,44 +73,118 @@ body {
     color: lightseagreen;
 }
 
+#BrawlPic {
+    transform: translate(600px, -25px) scale(120%) rotateX(50deg) rotateY(-20deg)
+}
+
 .S {
     color: dimgrey;
+}
+
+#SF6Pic:hover {
+    transition-timing-function: ease-out;
+    transition: width 3s;
+    width: 1585px;
 }
 
 .MK {
     color: royalblue;
 }
 
+#MK1:hover {
+    transition-timing-function: ease;
+    transition: 5s;
+    width: 600px;
+    transform: translate(500px, -30px)
+}
+
 .M {
     color: deepskyblue;
+}
+
+#Min:hover {
+    transform: rotate(-360deg) translate(800px, -30px);
+    transition: 3s;
 }
 
 .T {
     color: darkseagreen;
 }
+
+#Ter:hover {
+    transform: rotate(360deg) translate(700px, -25px);
+    transition: 3s;
+}
+
 .SSBU {
-    color: deeppink;
+    color: greenyellow;
+}
+
+#Super:hover {
+    transition-timing-function: ease;
+    transition: 4s;
+    width: 450px;
+    height: 550px;
+    transform: translate(550px, -15px)
 }
 
 .Mario {
     color: red;
 }
 
+#Mar:hover {
+    transform: translate(600px, -30px)
+}
+
+.Rivals {
+    color: yellow;
+}
+
+#Marvel:hover {
+    transition-timing-function: ease;
+    transition: 4s;
+    transform: translate(700px, -20px) rotateZ(720deg) scale(130%)
+}
+
 #footer:hover {
-    color: navajowhite;
+    color: lightsteelblue;
     background-color: black;
+    border-radius: 10px;
+    border: 5px solid dodgerblue;
 }
 
 #H {
     text-align: center;
-    border: 5px solid rebeccapurple;
+    border: 5px solid red;
 }
 
 a:hover {
-    color: navajowhite;
+    color: white;
     background-color: black;
 }
 
 p {
     color: black;
+}
+
+.feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 8rem;
+}
+
+.feature {
+    border: 5px solid white;
+    border-radius: 5rem;
+    padding: 2rem;
+    background: linear-gradient(palevioletred, steelblue);
+    flex-direction: column;
+    gap: 2rem;
+    flex: 1 1 320px;
+}
+
+.Numbers {
+    color: rebeccapurple;
 }
